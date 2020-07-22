@@ -42,11 +42,12 @@ if __name__ == '__main__':
     with open(obj_path, 'r') as f:
         while (True):
             NUM_Num = NUM_Num + 1
-            print(NUM_Num)
+            
             line = f.readline()
             if not line:
                 break
             line = line.replace('\n', '')
+            print(line)
             mesh_path = line
             vert_path = line.replace(".obj","_normal.xyz")
             vert = np.loadtxt(vert_path)

@@ -102,5 +102,5 @@ if __name__ == '__main__':
 			vert = np.loadtxt(vert_path)
 			vert_with_normal = generate_normal(vert, face_pts, face_axis)
 			np.savetxt(vert_path.replace('.xyz', '_normal.xyz'), vert_with_normal)
-			print(NUM_Num)
+			print(line)
 
