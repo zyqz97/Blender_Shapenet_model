@@ -17,7 +17,9 @@ Follow the order to run scripts in ubuntu
            
            #the key is meshlabserver -i $line -o ${line/.obj/.xyz}  -s $mlx_script
            
-           the mlx_script can get by Meshlab - Filters - Sampling - Poisson-dist Sampling. And then Filters - Show current filter script - save scripts. 
+           The mlx_script can get by 
+           ①Meshlab - Filters - Sampling - Poisson-dist Sampling.
+           ②Then Filters - Show current filter script - save scripts. 
     
     python 2_generate_normal.py # calculate normal of model.xyz
            
