@@ -28,6 +28,7 @@ Follow the order to run scripts in ubuntu
     python 4_pickle_xyz2dat  #use the standard library pickle in Python to serialize data to .dat files.
 
 
-PS： in windows system   cmd    dir /s/b *.xxx > path.txt
+PS： 
 
-     in Linux system      find  /dir  -name  "*.*"  > path.txt
+           in windows system   cmd    dir /s/b *.xxx > path.txt
+           in Linux system      find  /dir  -name  "*.*"  > path.txt
