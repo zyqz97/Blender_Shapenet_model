@@ -26,3 +26,7 @@ Follow the order to run scripts in ubuntu
     python 3_camera_transform.py # transform point cloud according to the PNG image(00.png). Get the point cloud of this view(00.xyz).
     
     python 4_pickle_xyz2dat  #use the standard library pickle in Python to serialize data to .dat files.
+
+
+PS： in windows system   cmd    dir /s/b *.xxx > path.txt
+     in Linux system      find  /dir  -name  "*.*"  > path.txt
