@@ -29,4 +29,5 @@ Follow the order to run scripts in ubuntu
 
 
 PS： in windows system   cmd    dir /s/b *.xxx > path.txt
+
      in Linux system      find  /dir  -name  "*.*"  > path.txt
